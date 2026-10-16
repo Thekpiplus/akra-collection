@@ -25,8 +25,7 @@ export const contact = {
   facebook: "https://www.facebook.com/AKRACollectionLayan/",
   instagram: "https://www.instagram.com/akracollectionlayan/",
   logo: "/logo.png",
-  ogImage:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_20240619164410_0984_D-scaled.jpg",
+  ogImage: "/images/2025/09/DJI_20240619164410_0984_D-scaled.jpg",
 } as const;
 
 export function whatsappUrl(message?: string) {

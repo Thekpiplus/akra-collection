@@ -17,7 +17,7 @@ export default function TermsPage() {
       <PageHero
         title="Terms & Conditions"
         lead="Please read these terms before using our website or enquiring about a long-term residence at AKRA Collection Layan."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0228-scaled.jpg"
+        image="/images/2025/09/DJI_0228-scaled.jpg"
       />
 
       <section className="section">

@@ -11,7 +11,7 @@ export const metadata: Metadata = pageMetadata({
     "Browse 1–4 bedroom private pool villas for monthly and yearly rental at AKRA Collection Layan, Phuket — duplexes, modular cabins, and valley homes.",
   path: "/residences",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/Luxury-Valley-Serviced-villas.jpeg",
+    "/images/2025/09/Luxury-Valley-Serviced-villas.jpeg",
 });
 
 export default function ResidencesPage() {
@@ -31,7 +31,7 @@ export default function ResidencesPage() {
       <PageHero
         title="Our residences"
         lead="Private pool villas for monthly and yearly living — from intimate duplexes to expansive family homes."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/Luxury-Valley-Serviced-villas.jpeg"
+        image="/images/2025/09/Luxury-Valley-Serviced-villas.jpeg"
       />
 
       {groups.map((group) => (

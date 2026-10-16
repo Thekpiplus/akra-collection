@@ -7,23 +7,23 @@ import { contact } from "@/lib/contact";
 
 const slides = [
   {
-    src: "https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_20240619164410_0984_D-scaled.jpg",
+    src: "/images/2025/09/DJI_20240619164410_0984_D-scaled.jpg",
     alt: "Aerial view of AKRA Collection Layan residences",
   },
   {
-    src: "https://akracollectionlayan.com/wp-content/uploads/2025/09/DSC00032-scaled.jpg",
+    src: "/images/2025/09/DSC00032-scaled.jpg",
     alt: "Private pool villa terrace at Layan",
   },
   {
-    src: "https://akracollectionlayan.com/wp-content/uploads/2025/09/honeymoon-duplex-suite-15.jpg",
+    src: "/images/2025/09/honeymoon-duplex-suite-15.jpg",
     alt: "Duplex residence with private pool",
   },
   {
-    src: "https://akracollectionlayan.com/wp-content/uploads/2025/09/Luxury-Valley-Serviced-villas.jpeg",
+    src: "/images/2025/09/Luxury-Valley-Serviced-villas.jpeg",
     alt: "Valley serviced villa surrounded by greenery",
   },
   {
-    src: "https://akracollectionlayan.com/wp-content/uploads/2025/10/terrace.jpg",
+    src: "/images/2025/10/terrace.jpg",
     alt: "Outdoor living terrace at AKRA Collection Layan",
   },
 ] as const;

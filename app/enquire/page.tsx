@@ -12,7 +12,7 @@ export const metadata: Metadata = pageMetadata({
     "Enquire about monthly or yearly villa rental at AKRA Collection Layan. Request a private viewing or quotation by email or WhatsApp.",
   path: "/enquire",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/DSC00032-scaled.jpg",
+    "/images/2025/09/DSC00032-scaled.jpg",
 });
 
 export default function EnquirePage() {
@@ -21,7 +21,7 @@ export default function EnquirePage() {
       <PageHero
         title="Enquire about a residence"
         lead="Tell us your preferred move-in date and duration. We will respond with availability and a tailored quotation."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DSC00032-scaled.jpg"
+        image="/images/2025/09/DSC00032-scaled.jpg"
       />
 
       <section className="section">

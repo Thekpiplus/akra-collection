@@ -13,7 +13,7 @@ export const metadata: Metadata = pageMetadata({
     "Contact AKRA Collection Layan for long-term villa rental enquiries and private viewings in Layan, Phuket. Phone, WhatsApp, email, and Facebook.",
   path: "/contact",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_20240619163313_0976_D-scaled.jpg",
+    "/images/2025/09/DJI_20240619163313_0976_D-scaled.jpg",
 });
 
 export default function ContactPage() {
@@ -22,7 +22,7 @@ export default function ContactPage() {
       <PageHero
         title="Contact us"
         lead="We are here to help with long-term rental enquiries, viewings, and availability."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_20240619163313_0976_D-scaled.jpg"
+        image="/images/2025/09/DJI_20240619163313_0976_D-scaled.jpg"
       />
 
       <section className="section">

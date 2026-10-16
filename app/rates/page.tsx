@@ -11,7 +11,7 @@ export const metadata: Metadata = pageMetadata({
     "Seasonal monthly rental rates and 3/6/12-month discounts for 1–4 bedroom serviced pool villas at AKRA Collection Layan, Phuket.",
   path: "/rates",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0227-scaled.jpg",
+    "/images/2025/09/DJI_0227-scaled.jpg",
 });
 
 export default function RatesPage() {
@@ -20,7 +20,7 @@ export default function RatesPage() {
       <PageHero
         title="Long-stay rates"
         lead="Spacious villas · Fully serviced · 1–4 bedrooms. Seasonal monthly pricing with packages for longer commitments."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0227-scaled.jpg"
+        image="/images/2025/09/DJI_0227-scaled.jpg"
       />
 
       <section className="section">

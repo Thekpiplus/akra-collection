@@ -11,7 +11,7 @@ export const metadata: Metadata = pageMetadata({
     "Photos of private pool villas, terraces, and hillside living at AKRA Collection Layan in Phuket.",
   path: "/gallery",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0234-scaled.jpg",
+    "/images/2025/09/DJI_0234-scaled.jpg",
 });
 
 export default function GalleryPage() {
@@ -20,7 +20,7 @@ export default function GalleryPage() {
       <PageHero
         title="Gallery"
         lead="A look inside the residences, pools, and hillside setting of AKRA Collection Layan."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0234-scaled.jpg"
+        image="/images/2025/09/DJI_0234-scaled.jpg"
       />
 
       <section className="section">

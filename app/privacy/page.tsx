@@ -17,7 +17,7 @@ export default function PrivacyPage() {
       <PageHero
         title="Privacy Policy"
         lead="How AKRA Collection Layan looks after your personal data when you visit our website, enquire about a residence, or book with us."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/09/DJI_0216-scaled.jpg"
+        image="/images/2025/09/DJI_0216-scaled.jpg"
       />
 
       <section className="section">

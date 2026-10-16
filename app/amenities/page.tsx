@@ -12,7 +12,7 @@ export const metadata: Metadata = pageMetadata({
     "Included long-term rental services at AKRA Collection Layan: housekeeping, linen, pool and garden care, Wi-Fi, 24-hour reception, and on-site café.",
   path: "/amenities",
   image:
-    "https://akracollectionlayan.com/wp-content/uploads/2025/10/Have_a_trip_day28-scaled.jpg",
+    "/images/2025/10/Have_a_trip_day28-scaled.jpg",
 });
 
 const amenities = [
@@ -60,7 +60,7 @@ export default function AmenitiesPage() {
       <PageHero
         title="Amenities & services"
         lead="Everything you need for everyday living — not a short check-in stay."
-        image="https://akracollectionlayan.com/wp-content/uploads/2025/10/Have_a_trip_day28-scaled.jpg"
+        image="/images/2025/10/Have_a_trip_day28-scaled.jpg"
       />
 
       <section className="section">
@@ -90,7 +90,7 @@ export default function AmenitiesPage() {
           <Reveal>
             <div className="split__media">
               <Image
-                src="https://akracollectionlayan.com/wp-content/uploads/2025/09/IMG_8986-scaled.jpg"
+                src="/images/2025/09/IMG_8986-scaled.jpg"
                 alt="Estate living spaces"
                 width={1000}
                 height={800}

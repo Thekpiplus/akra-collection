@@ -13,8 +13,7 @@ export type Villa = {
   gallery: string[];
 };
 
-const img = (path: string) =>
-  `https://akracollectionlayan.com/wp-content/uploads/${path}`;
+const img = (path: string) => `/images/${path}`;
 
 export const wings = [
   {

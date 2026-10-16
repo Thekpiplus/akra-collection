@@ -121,7 +121,7 @@ export default function HomePage() {
           <Reveal>
             <div className="split__media">
               <Image
-                src="https://akracollectionlayan.com/wp-content/uploads/2025/10/terrace.jpg"
+                src="/images/2025/10/terrace.jpg"
                 alt="Private terrace and pool"
                 width={1000}
                 height={800}
