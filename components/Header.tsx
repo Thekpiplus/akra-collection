@@ -33,9 +33,29 @@ export default function Header() {
   }, [pathname]);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
+    if (!open) return;
+
+    const scrollY = window.scrollY;
+    const { style: body } = document.body;
+    const { style: html } = document.documentElement;
+
+    body.position = "fixed";
+    body.top = `-${scrollY}px`;
+    body.left = "0";
+    body.right = "0";
+    body.width = "100%";
+    body.overflow = "hidden";
+    html.overflow = "hidden";
+
     return () => {
-      document.body.style.overflow = "";
+      body.position = "";
+      body.top = "";
+      body.left = "";
+      body.right = "";
+      body.width = "";
+      body.overflow = "";
+      html.overflow = "";
+      window.scrollTo(0, scrollY);
     };
   }, [open]);
 
@@ -44,7 +64,7 @@ export default function Header() {
 
   return (
     <header
-      className={`site-header ${solid || !isHome ? "is-solid" : ""} ${!isHome ? "is-inner" : ""}`}
+      className={`site-header ${solid || !isHome || open ? "is-solid" : ""} ${!isHome ? "is-inner" : ""} ${open ? "is-menu-open" : ""}`}
     >
       <div className="header-inner">
         <Link href="/" className="brand-link" aria-label={`${contact.brand} home`}>
