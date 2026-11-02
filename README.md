@@ -16,7 +16,9 @@ npm run lint
 
 ## Deploy
 
-Upload the contents of `out/` to the site root. Keep folder structure (`residences/`, `images/`, etc.).
+**Hostinger (PHP/HTML) via GitHub:** connect repo `Thekpiplus/akra-collection`, branch `hostinger`, directory `public_html`. Pushing to `master` rebuilds that branch automatically.
+
+Manual: upload the contents of `out/` to `public_html`. Keep folder structure (`residences/`, `images/`, etc.).
 
 **FormSubmit:** Confirm the first activation email sent to `akra.reservation@gmail.com` so enquiries deliver.
 

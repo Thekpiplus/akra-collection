@@ -17,6 +17,7 @@
 
 # production
 /build
+akra-collection-hostinger.zip
 
 # misc
 .DS_Store
